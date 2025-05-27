@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veyora - Creative Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Veyora/Veyora.png" alt="">
+            <img src="Veyora/AGENCY.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="home">
+        <div class="home-content">
+            <h2 class="fade-in">Welcome to Veyora</h2>
+            <p>Your go-to agency for creative web and mobile solutions.</p>
+            <a href="#contact" class="cta-button bounce">Get in Touch</a>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-items">
+            <div class="service-item fade-up">
+                <h3>Web Development</h3>
+                <p>We build responsive, user-friendly websites that meet your business needs.</p>
+            </div>
+            <div class="service-item fade-up">
+                <h3>Mobile App Development</h3>
+                <p>Creating intuitive mobile apps that provide great user experiences on iOS and Android.</p>
+            </div>
+            <div class="service-item fade-up">
+                <h3>Graphic Design</h3>
+                <p>Our design team crafts logos, branding, and digital graphics that resonate with your audience.</p>
+            </div>
+            <div class="service-item fade-up">
+                <h3>UI/UX Design</h3>
+                <p>We focus on creating intuitive user interfaces and experiences for web and mobile applications.</p>
+            </div>
+            <div class="service-item fade-up ">
+                <h3></h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+        <h2>Our Projects</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item slide-up">
+                <img src="project1.jpg" alt="Project 1">
+                <h4>Online Store</h4>
+                <p>Complete e-commerce solution with beautiful UI and seamless user experience.</p>
+            </div>
+            <div class="portfolio-item slide-up">
+                <img src="project2.jpg" alt="Project 2">
+                <h4>Mobile Fitness App</h4>
+                <p>A mobile app for tracking workouts, goals, and nutrition, with an intuitive design.</p>
+            </div>
+            <div class="portfolio-item slide-up">
+                <img src="project3.jpg" alt="Project 3">
+                <h4>Brand Identity Design</h4>
+                <p>A full branding package, including logos, color palettes, and marketing materials.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="send_email.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="bounce">Send</button>
+        </form>
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="instagram-icon.svg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="facebook-icon.svg" alt="Facebook">
+            </a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Veyora. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
